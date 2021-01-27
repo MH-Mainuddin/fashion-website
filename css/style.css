@@ -1,0 +1,228 @@
+/*************************
+  comon css
+**************************/
+* {
+    box-sizing: border-box;
+  }
+.left-half{
+    float: left;
+    width: 50%;
+}
+.right-half{
+    float: left;
+    width: 50%; 
+}
+h2{
+    color: rgba(5, 32, 83, 0.89);
+    margin: 50px 0;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+h4{
+    font-weight: 700;
+}
+h5{
+    color: rgba(2, 9, 22, 0.89);
+    margin: 8px 0;
+    font-weight: 600;
+}
+.card h4{
+    color: orange;
+    font-size: 33px;
+    margin:auto;
+    margin-left: 10px;
+}
+.btn{
+    padding: 12px 20px;
+    background-color: rgba(14, 168, 14, 0.664);
+    color: white;
+}
+.btn:hover{
+    background-color:  orange;
+}
+/*************************
+   header-section
+**************************/
+.header-section{
+    background-color: #fdf8eb;
+    overflow: hidden;
+    padding-top: 20px;
+ }
+.logo-nav{
+    width: 250px;
+}
+.header-section .left-half{
+    padding-bottom: 50px ;
+    text-align: left;
+    margin: auto;
+}
+.header-section .right-half{
+    padding: 50px 0;
+}
+.left-half h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(5, 32, 83, 0.89);
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.heading{
+    color: orange;
+}
+.top-botton{
+    padding: 12px 40px;
+    margin-top: 20px;
+}
+.right-half img{
+    width: 100%;
+    height: 500px;
+}
+ul li{
+    margin-left: 10px;
+}
+ul li a{
+    color: black;
+    text-transform: uppercase;
+}
+.half-left{
+    float: left;
+    width: 50%;
+}
+.half-right{
+    float: left;
+    width: 50%; 
+}
+/*************************
+   woman-jacet-section
+**************************/
+.woman-jacet-section{
+    overflow: hidden;
+}
+.woman-jacet-section div:nth-child(2){
+    margin-left: 0;
+}
+.card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px lightgray;
+    padding: 15px;
+    
+}
+.card img{
+    background-color: rgb(231, 226, 226);
+    border-radius: 15px;
+   width: 100%;
+    height: 400px;
+}
+.cart{
+    margin-right: 8px;
+}
+/*************************
+   about-section
+**************************/
+.about-section{
+    margin: 100px 0;
+    overflow: hidden;
+}
+.about-section img{
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+}
+.main-box{
+    border: none;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px lightgray;
+    padding: 10px;
+    height: 120px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.left-box{
+    width: 15%;
+    float: left;
+}
+.left-box img{
+    width: 100%;
+    height: 60px;
+    margin-right: 10px;
+}
+.right-box{
+    float: left;
+    width: 80%;
+    text-align: left;
+}
+.right-box h5{
+    padding-left: 40px;
+}
+.right-box p{
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+/*************************
+   discount-section
+**************************/
+.discount-section{
+    background-color: rgba(231, 226, 226, 0.281);;
+    padding: 80px 0;
+}
+.discount-section h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgba(5, 32, 83, 0.89);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.discount-section img{
+    width: 100%;
+    margin: auto;
+}
+.icon-galary{
+    text-align: center;
+    padding-top: 50px;
+}
+.icon{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px)  {
+    [class*="col-"] {
+      width: 100%;
+    }
+    .left-half{
+        width: 100%;
+    }
+    .right-half{
+        width: 100%;
+    }
+    .prot-pic{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 100px;
+    }
+    .discount-section img{
+        margin: 10px 0;
+    }
+    .icon{
+        margin-top: 15px;
+    }
+    .btn{
+        margin-top: 15px;
+    }
+
+
+  }
+  @media only screen and (min-width: 768px) {
+    .discount-section img{
+        margin: 10px 0;
+    }
+    .icon{
+        margin-top: 15px;
+    }
+    .btn{
+        margin-top: 15px;
+    }
+    
+  } 
